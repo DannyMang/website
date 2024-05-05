@@ -23,21 +23,22 @@ function Navbar({ className }: { className?: string }) {
       )}
     >
       <Menu setActive={setActive}>
-      <MenuItem setActive={setActive} active={active} item="daniel ung">
+      <MenuItem setActive={setActive} active={active} item="about">
           <div className="flex flex-col space-y-4 text-lg font-medium">
             <p>
               hello! welcome to my portfolio! i'm a currently an undergraduate CS student at SJSU, and an incoming SWE intern at Barclays!
             </p>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="about">
+        <MenuItem setActive={setActive} active={active} item="projects">
           <div className="flex flex-col space-y-4 text-lg font-medium">
-            <p>
-              
-            </p>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="github + linkedin + email">
+        <MenuItem setActive={setActive} active={active} item="tutoring">
+          <div className="flex flex-col space-y-4 text-lg font-medium">
+          </div>
+        </MenuItem>
+        <MenuItem setActive={setActive} active={active} item="github + linkedin">
           <div className="  text-lg grid grid-cols-3 gap-10 p-4 font-medium">
             <ProductItem
               title="github"
