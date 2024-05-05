@@ -23,36 +23,39 @@ function Navbar({ className }: { className?: string }) {
       )}
     >
       <Menu setActive={setActive}>
-        <div className="flex flex-col space-y-4 text-3xl font-bold">
-          elitecode
-        </div>
-        <MenuItem setActive={setActive} active={active} item="about">
+      <MenuItem setActive={setActive} active={active} item="daniel ung">
           <div className="flex flex-col space-y-4 text-lg font-medium">
             <p>
-              elitecode is a new way of practicing your data structures and
-              algorithms using the feynman technique
+              hello! welcome to my portfolio! i'm a currently an undergraduate CS student at SJSU, and an incoming SWE intern at Barclays!
             </p>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="links">
+        <MenuItem setActive={setActive} active={active} item="about">
+          <div className="flex flex-col space-y-4 text-lg font-medium">
+            <p>
+              
+            </p>
+          </div>
+        </MenuItem>
+        <MenuItem setActive={setActive} active={active} item="github + linkedin + email">
           <div className="  text-lg grid grid-cols-3 gap-10 p-4 font-medium">
             <ProductItem
               title="github"
-              href="https://github.com/ehcaw/sfhacks"
+              href="https://github.com/DannyMang"
               src="/github.png"
               description="check out the repo!"
-            />
-            <ProductItem
-              title="ryan's linkedin"
-              href="https://linkedin.com/in/ryannguyenc"
-              src="/linkedin.webp"
-              description="connect with us!"
             />
             <ProductItem
               title="daniel's linkedin"
               href="https://linkedin.com/in/danielung22"
               src="/linkedin.webp"
-              description="connect with us!"
+              description="connect with me!"
+            />
+            <ProductItem
+              title="gmail"
+              href="mailto:daniel.ung@sjsu.edu?subject=Hello! Here&body=Hello Daniel, I'm reaching out to you because..."
+              src="/gmail.png"
+              description="daniel.ung@sjsu.edu"
             />
           </div>
         </MenuItem>
