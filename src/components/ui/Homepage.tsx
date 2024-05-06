@@ -33,7 +33,7 @@ const cardItems = [
     link: "https://www.mlatsjsu.com"
   },
   {
-    title: "Machine Learning Engineer Intern @ JagaurDB",
+    title: "Machine Learning Engineer Intern @ JaguarDB",
     description: "Mostly worked on applications of ML models with JaguarDB's database. Made contributions to Langchain repo",
     link: "#"
   }

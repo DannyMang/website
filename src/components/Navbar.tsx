@@ -37,7 +37,7 @@ function Navbar({ className }: { className?: string }) {
             </p>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="github+linkedin">
+        <MenuItem setActive={setActive} active={active} item="contacts">
           <div className="  text-lg grid grid-cols-3 gap-10 p-4 font-medium">
             <ProductItem
               title="github"
