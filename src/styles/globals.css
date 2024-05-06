@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .message {
-    @apply bg-purple-500 relative text-white p-4 rounded-lg w-fit;
-  }
-
-  .assistant {
-    @apply h-40 w-40 object-contain;
-  }
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -76,25 +66,9 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
-.containerWrap {
-  @apply container mx-auto max-w-4xl;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-  .containerWrap {
-    @apply container mx-auto max-w-4xl;
   }
   .flex.con {
     flex-direction: column;

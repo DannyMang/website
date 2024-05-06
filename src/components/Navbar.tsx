@@ -26,19 +26,18 @@ function Navbar({ className }: { className?: string }) {
       <MenuItem setActive={setActive} active={active} item="about">
           <div className="flex flex-col space-y-4 text-lg font-medium">
             <p>
-              hello! welcome to my portfolio! i'm a currently an undergraduate CS student at SJSU, and an incoming SWE intern at Barclays!
+              hello! welcome to my portfolio! i&apos;m a currently an undergraduate CS student at SJSU, and an incoming SWE intern at Barclays!
             </p>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="projects">
           <div className="flex flex-col space-y-4 text-lg font-medium">
+            <p>
+              click to see some of my past projects!
+            </p>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="tutoring">
-          <div className="flex flex-col space-y-4 text-lg font-medium">
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="github + linkedin">
+        <MenuItem setActive={setActive} active={active} item="github+linkedin">
           <div className="  text-lg grid grid-cols-3 gap-10 p-4 font-medium">
             <ProductItem
               title="github"
@@ -47,14 +46,14 @@ function Navbar({ className }: { className?: string }) {
               description="check out the repo!"
             />
             <ProductItem
-              title="daniel's linkedin"
+              title="my linkedin"
               href="https://linkedin.com/in/danielung22"
               src="/linkedin.webp"
               description="connect with me!"
             />
             <ProductItem
               title="gmail"
-              href="mailto:daniel.ung@sjsu.edu?subject=Hello! Here&body=Hello Daniel, I'm reaching out to you because..."
+              href="mailto:daniel.ung@sjsu.edu?subject=Hello! Here&body=Hello Daniel, I am reaching out to you because..."
               src="/gmail.png"
               description="daniel.ung@sjsu.edu"
             />

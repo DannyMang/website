@@ -39,6 +39,32 @@ const cardItems = [
     link: "#"
   }
 ];
+const projectItems = [
+  {
+    title: "Leetcode Coach",
+    description: "SFHacks'24 Project - A platform that lets students practice their DSA skills verbally. Built with React, Next.js, GCP, Kubernates, and OpenAI's Whisper model",
+  },
+  {
+    title: "CruzMaps",
+    description: "A more modernized redesign of UCSC's map using MapBox GL JS. Built with React, Next.js, TailwindCSS, and Typescript",
+  },
+  {
+    title: "Knits",
+    description: "Social Media app made for CS157 : Intro to Database Management Systems. Built with React Native, Springboot, and MySQL",
+  },
+  {
+    title: "Purrfect Match",
+    description: "CalHacks Hack for Impact Project - A tinder-like app for matching cat lovers to homeless cats. Built with Flutter, and Firebase",
+  },
+  {
+    title: "SJSU Parking",
+    description: "Mobile app redeisgn for SJSU's parking system. Built with React Native, and Express/Node.js",
+  },
+  {
+    title: "Selfcare.io",
+    description: "App to help users identify their skin issues using an SVM. Built with React, Flask, and scikit-learn",
+  }
+];
 
 
 
@@ -63,7 +89,7 @@ export function Homepage() {
           <HoverEffect items={cardItems} className="w-full" />
           </div>
         </ContainerScroll>
-        <StickyScroll content={cardItems} />
+        <StickyScroll content={projectItems} />
       </div>
     </div>
   );
