@@ -7,7 +7,7 @@ const LandingPage: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>elitecode</title>
+        <title>daniel ung</title>
       </Head>
       <main className="flex-1 bg-white p-8">
         <Homepage />
