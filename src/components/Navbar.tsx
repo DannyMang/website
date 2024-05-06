@@ -15,6 +15,7 @@ export function NavbarDemo() {
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+
   return (
     <div
       className={cn(
@@ -27,13 +28,6 @@ function Navbar({ className }: { className?: string }) {
           <div className="flex flex-col space-y-4 text-lg font-medium">
             <p>
               hello! welcome to my portfolio! 
-            </p>
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="projects">
-          <div className="flex flex-col space-y-4 text-lg font-medium">
-            <p>
-              click to see some of my past projects!
             </p>
           </div>
         </MenuItem>

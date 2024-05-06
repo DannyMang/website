@@ -40,27 +40,27 @@ const cardItems = [
 ];
 const projectItems = [
   {
-    title: "Leetcode Coach",
+    title: "Leetcode Coach (picture coming soon)",
     description: "SFHacks'24 Project - A platform that lets students practice their DSA skills verbally. Built with React, Next.js, GCP, Kubernates, and OpenAI's Whisper model",
   },
   {
-    title: "CruzMaps",
+    title: "CruzMaps (picture coming soon)",
     description: "A more modernized redesign of UCSC's map using MapBox GL JS. Built with React, Next.js, TailwindCSS, and Typescript",
   },
   {
-    title: "Knits",
+    title: "Knits (picture coming soon)",
     description: "Social Media app made for CS157 : Intro to Database Management Systems. Built with React Native, Springboot, and MySQL",
   },
   {
-    title: "Purrfect Match",
+    title: "Purrfect Match (picture coming soon)",
     description: "CalHacks Hack for Impact Project - A tinder-like app for matching cat lovers to homeless cats. Built with Flutter, and Firebase",
   },
   {
-    title: "SJSU Parking",
+    title: "SJSU Parking (picture coming soon)",
     description: "Mobile app redeisgn for SJSU's parking system. Built with React Native, and Express/Node.js",
   },
   {
-    title: "Selfcare.io",
+    title: "Selfcare.io (picture coming soon)",
     description: "App to help users identify their skin issues using an SVM. Built with React, Flask, and scikit-learn",
   }
 ];
