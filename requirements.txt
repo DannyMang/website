@@ -1,4 +1,0 @@
-flask
-git+https://github.com/openai/whisper.git
-setuptools-rust
-flask_cors
