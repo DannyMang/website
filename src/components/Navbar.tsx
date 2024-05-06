@@ -26,7 +26,7 @@ function Navbar({ className }: { className?: string }) {
       <MenuItem setActive={setActive} active={active} item="about">
           <div className="flex flex-col space-y-4 text-lg font-medium">
             <p>
-              hello! welcome to my portfolio! i&apos;m a currently an undergraduate CS student at SJSU, and an incoming SWE intern at Barclays!
+              hello! welcome to my portfolio! 
             </p>
           </div>
         </MenuItem>

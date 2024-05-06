@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavbarDemo } from '../Navbar';
-import { MaskContainer } from './MaskContainer';
 import { Vortex } from './Vortex';
 import { TypewriterEffect } from './Typewriter';
 import { ContainerScroll } from './container-scroll-animation';
@@ -76,7 +75,8 @@ export function Homepage() {
         {/* Background gradient covering the whole area */}
         <Vortex>
           <div className="text-center mt-20 md:mt-32 z-10 relative">
-            <TypewriterEffect words={[{ text: "Daniel Ung" }]} /> 
+            <TypewriterEffect words={[{ text: "Daniel_Ung" }]} />
+            <p>_</p>
             <h2 className="text-3xl text-white">Computer Science at San Jose State University</h2>
           </div>
         </Vortex>
