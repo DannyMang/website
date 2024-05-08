@@ -9,7 +9,7 @@ import { StickyScroll } from './sticky-scroll-reveal';
 const cardItems = [
   {
     title: "Incoming intern @ Barclays!",
-    description: "Technology Developer Role ",
+    description: "Technology Developer Role, Incoming Summer 2025",
     link: "https://home.barclays/"
   },
   {
