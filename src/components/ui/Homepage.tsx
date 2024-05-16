@@ -23,7 +23,7 @@ const cardItems = [
     link: ""
   },
   {
-    title: "Incoming at Game Dev Intern @ Qloud Games",
+    title: "Incoming Game Dev Intern @ Qloud Games",
     description: "Helping build Loftia.GG!",
     link: "https://loftia.gg"
   },
