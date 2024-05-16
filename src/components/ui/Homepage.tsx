@@ -8,7 +8,7 @@ import { StickyScroll } from './sticky-scroll-reveal';
 
 const cardItems = [
   {
-    title: "Incoming intern @ Barclays!",
+    title: "Incoming SWE intern @ Barclays!",
     description: "Technology Developer Role, Incoming Summer 2025",
     link: "https://home.barclays/"
   },
@@ -24,7 +24,7 @@ const cardItems = [
   },
   {
     title: "Incoming Game Dev Intern @ Qloud Games",
-    description: "Helping build Loftia.GG!",
+    description: "Helping build Loftia.GG! Summer 2024",
     link: "https://loftia.gg"
   },
   {
