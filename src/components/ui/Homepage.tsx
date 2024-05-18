@@ -23,9 +23,9 @@ const cardItems = [
     link: ""
   },
   {
-    title: "Incoming Game Dev Intern @ Qloud Games",
-    description: "Helping build Loftia.GG! Summer 2024",
-    link: "https://loftia.gg"
+    title: "Hackathon Team @ SJSU",
+    description: "Social Media Person",
+    link: "https://www.acmsjsu.org"
   },
   {
     title: "Lead Developer + Treasurer @ ML@SJSU ",
